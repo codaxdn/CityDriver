@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FinNivel
+  - DirIzquierda
+  - DirDerecha
+  - FinDireccional
+  - Semaforo
+  - T1
+  - T2
+  - GirarDerecha
+  - GirarIzquierda
+  - Luces
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Velocimetro
+  - Water
+  - UI
+  - 
+  - 
+  - RCC
+  - RCC_WheelCollider
+  - RCC_DetachablePart
+  - RCC_Trailer
+  - RCC_Crasher
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Velocimetro
+    uniqueID: 2586094487
+    locked: 0
