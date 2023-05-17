@@ -833,6 +833,10 @@ PrefabInstance:
       propertyPath: m_UiScaleMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1816754233114594745, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1816754233129155491, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
       propertyPath: m_UiScaleMode
       value: 1

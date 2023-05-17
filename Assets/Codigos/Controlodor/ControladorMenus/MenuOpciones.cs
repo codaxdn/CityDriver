@@ -20,6 +20,14 @@ public class MenuOpciones : MonoBehaviour
         float volumen = PlayerPrefs.GetFloat("Volumen", 0.5f);
         volumenSlider.value = volumen;
         CambiarVolumen(volumen);
+
+        // Asignar el evento OnValueChanged al Toggle
+        pantallaCompletaToggle.onValueChanged.AddListener(OnPantallaCompletaToggleChanged);
+    }
+
+    private void OnPantallaCompletaToggleChanged(bool value)
+    {
+        SetPantallaCompleta(value);
     }
 
     public void SetPantallaCompleta(bool pantallaCompleta)

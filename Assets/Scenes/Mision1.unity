@@ -5535,23 +5535,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5167729862490021188, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 4
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5167729862490021188, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 5167729862702888192, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5167729862702888192, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 16
+      value: 187
       objectReference: {fileID: 0}
     - target: {fileID: 5167729862702888192, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2
+      value: -61
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863145462664, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5559,11 +5559,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863145462664, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 439
+      value: 324
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863145462664, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 219
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863218138950, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_UiScaleMode
@@ -5583,11 +5583,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863253107476, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_UiScaleMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863253107476, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863270110911, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -5610,19 +5610,35 @@ PrefabInstance:
       value: 31.9034
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863440617844, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167729863440617844, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 43
+      value: 197
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863440617844, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2
+      value: -87
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863758213748, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_UiScaleMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5167729863758213748, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167729863758213749, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2145344296}
+    - target: {fileID: 5167729863758213749, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167729863758213749, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: m_PlaneDistance
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5167729864072066669, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
