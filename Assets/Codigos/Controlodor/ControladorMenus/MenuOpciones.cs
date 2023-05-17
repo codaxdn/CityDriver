@@ -6,22 +6,46 @@ using UnityEngine.Audio;
 public class MenuOpciones : MonoBehaviour
 {
     [SerializeField] private AudioMixer audioMixer;
-    public void PantallaCompleta(bool PantallaCompleta){
+    [SerializeField] private UnityEngine.UI.Toggle pantallaCompletaToggle;
+    [SerializeField] private UnityEngine.UI.Slider volumenSlider;
 
-        Screen.fullScreen = PantallaCompleta;
+    private void Start()
+    {
+        // Establecer el estado del checkbox de pantalla completa basado en PlayerPrefs
+        bool pantallaCompleta = PlayerPrefs.GetInt("PantallaCompleta", 0) == 1;
+        pantallaCompletaToggle.isOn = pantallaCompleta;
+        SetPantallaCompleta(pantallaCompleta);
 
+        // Establecer el valor del volumen basado en PlayerPrefs
+        float volumen = PlayerPrefs.GetFloat("Volumen", 0.5f);
+        volumenSlider.value = volumen;
+        CambiarVolumen(volumen);
     }
 
+    public void SetPantallaCompleta(bool pantallaCompleta)
+    {
+        // Establecer el modo de pantalla completa
+        Screen.fullScreen = pantallaCompleta;
 
-    public void CambiarVolumen(float volumen){
+        // Guardar el estado en PlayerPrefs
+        PlayerPrefs.SetInt("PantallaCompleta", pantallaCompleta ? 1 : 0);
+        PlayerPrefs.Save();
+    }
 
+    public void CambiarVolumen(float volumen)
+    {
+        // Ajustar el volumen usando el AudioMixer
         audioMixer.SetFloat("Volumen", volumen);
+
+        // Guardar el valor del volumen en PlayerPrefs
+        PlayerPrefs.SetFloat("Volumen", volumen);
+        PlayerPrefs.Save();
     }
 
-    public void CambiarCalidad(int index){
-        int calidad = index + 1;
-
+    public void CambiarCalidad(int index)
+    {
+        // Ajustar la calidad según el índice seleccionado
+        int calidad = index;
         QualitySettings.SetQualityLevel(calidad);
-
     }
 }
