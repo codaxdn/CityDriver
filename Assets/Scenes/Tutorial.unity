@@ -284,9 +284,24 @@ Transform:
   m_Father: {fileID: 890365631}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90.556, z: 0}
+--- !u!146 &711834505 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 1816754231354126102, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+  m_PrefabInstance: {fileID: 1216487316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &876841140 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1816754232789195285, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+  m_PrefabInstance: {fileID: 1216487316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &890365631 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1816754232491465625, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+  m_PrefabInstance: {fileID: 1216487316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &961868694 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1816754232748676729, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
   m_PrefabInstance: {fileID: 1216487316}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &971839479
@@ -501,6 +516,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047818370}
   m_CullTransparentMesh: 1
+--- !u!146 &1085531582 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 1816754232691797766, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+  m_PrefabInstance: {fileID: 1216487316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &1093886049 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 1816754232685472056, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+  m_PrefabInstance: {fileID: 1216487316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1216487316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -552,6 +577,50 @@ PrefabInstance:
       propertyPath: limiteVelocidad
       value: 300
       objectReference: {fileID: 0}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: fuerzaMotor
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: fuerzaFrenado
+      value: 4000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: anguloGiroMaximo
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: colliderRuedaTraseraDerecha
+      value: 
+      objectReference: {fileID: 1590233503}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: transformRuedaTraseraDerecha
+      value: 
+      objectReference: {fileID: 961868694}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: colliderRuedaDelanteraDerecha
+      value: 
+      objectReference: {fileID: 1085531582}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: colliderRuedaTraseraIzquierda
+      value: 
+      objectReference: {fileID: 1093886049}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: transformRuedaDelanteraDerecha
+      value: 
+      objectReference: {fileID: 876841140}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: transformRuedaTraseraIzquierda
+      value: 
+      objectReference: {fileID: 1712682223}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: colliderRuedaDelanteraIzquierda
+      value: 
+      objectReference: {fileID: 711834505}
+    - target: {fileID: 1816754231267362046, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+      propertyPath: transformRuedaDelanteraIzquierda
+      value: 
+      objectReference: {fileID: 2124596924}
     - target: {fileID: 1816754231469373258, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
       propertyPath: m_SizeDelta.x
       value: -11.1024
@@ -606,7 +675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1816754231693397770, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 20.636993
+      value: 20.636963
       objectReference: {fileID: 0}
     - target: {fileID: 1816754231693397770, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -734,11 +803,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1816754232753218629, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 283
+      value: 305.1
       objectReference: {fileID: 0}
     - target: {fileID: 1816754232753218629, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 161
+      value: 139.8
       objectReference: {fileID: 0}
     - target: {fileID: 1816754232908605573, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
       propertyPath: m_SizeDelta.x
@@ -929,6 +998,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293950930}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!146 &1590233503 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 1816754233157749577, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+  m_PrefabInstance: {fileID: 1216487316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1677551206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,6 +1158,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu1: {fileID: 2001256847}
   menu2: {fileID: 1047818370}
+--- !u!4 &1712682223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1816754232990579362, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+  m_PrefabInstance: {fileID: 1216487316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2001256847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,3 +1240,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001256847}
   m_CullTransparentMesh: 1
+--- !u!4 &2124596924 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1816754231623985339, guid: 019b3204fce4e3e438436bacd6ff5043, type: 3}
+  m_PrefabInstance: {fileID: 1216487316}
+  m_PrefabAsset: {fileID: 0}

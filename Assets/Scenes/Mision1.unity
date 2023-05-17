@@ -1303,6 +1303,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: af008e9bc5455424cb64920652d556cf, type: 3}
   m_PrefabInstance: {fileID: 1278080676}
   m_PrefabAsset: {fileID: 0}
+--- !u!146 &372645978 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 5167729863201640651, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+  m_PrefabInstance: {fileID: 1647490246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &381861937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1778,6 +1783,11 @@ BoxCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: af008e9bc5455424cb64920652d556cf, type: 3}
   m_PrefabInstance: {fileID: 1936196095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &586174898 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 5167729862282776795, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+  m_PrefabInstance: {fileID: 1647490246}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &599528444
 PrefabInstance:
@@ -3498,6 +3508,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c44cb037caa8bc143baa85372ac9b126, type: 3}
+--- !u!4 &1059283671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5167729863902152047, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+  m_PrefabInstance: {fileID: 1647490246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1077930052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3965,6 +3980,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e61e93e42c81ed41a07959b6d2e4bfd, type: 3}
+--- !u!146 &1227741854 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 5167729863801042052, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+  m_PrefabInstance: {fileID: 1647490246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1246257365 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 853d2730f98bf4445843c98cade0a584, type: 3}
@@ -5295,6 +5315,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 42e082e0cb73c144cb79057f54411346, type: 3}
   m_PrefabInstance: {fileID: 1776716953}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1547680004 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5167729863140567476, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+  m_PrefabInstance: {fileID: 1647490246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1572058745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 516aaa91e5dc0d1469fba702ca211b09, type: 3}
@@ -5355,6 +5380,11 @@ MeshCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ee6159bee91da414bb632b329d8417e9, type: 3}
   m_PrefabInstance: {fileID: 2024682934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1593090220 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5167729864103536088, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+  m_PrefabInstance: {fileID: 1647490246}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1627689818 stripped
 Transform:
@@ -5447,6 +5477,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: fuerzaMotor
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: fuerzaFrenado
+      value: 4000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: anguloGiroMaximo
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: colliderRuedaTraseraDerecha
+      value: 
+      objectReference: {fileID: 1227741854}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: transformRuedaTraseraDerecha
+      value: 
+      objectReference: {fileID: 1547680004}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: colliderRuedaDelanteraDerecha
+      value: 
+      objectReference: {fileID: 372645978}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: colliderRuedaTraseraIzquierda
+      value: 
+      objectReference: {fileID: 1841046719}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: transformRuedaDelanteraDerecha
+      value: 
+      objectReference: {fileID: 1593090220}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: transformRuedaTraseraIzquierda
+      value: 
+      objectReference: {fileID: 1059283671}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: colliderRuedaDelanteraIzquierda
+      value: 
+      objectReference: {fileID: 586174898}
+    - target: {fileID: 5167729862448184115, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+      propertyPath: transformRuedaDelanteraIzquierda
+      value: 
+      objectReference: {fileID: 1752924465}
     - target: {fileID: 5167729862448184119, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
       propertyPath: Nivel
       value: Mision1
@@ -5811,6 +5885,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 7e61e93e42c81ed41a07959b6d2e4bfd, type: 3}
   m_PrefabInstance: {fileID: 145931034}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1752924465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5167729862016063350, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+  m_PrefabInstance: {fileID: 1647490246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1764411388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 08cdf13dd9284734db77362fe04f7361, type: 3}
@@ -6064,6 +6143,11 @@ MeshCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5bf5ee18d369e904e8574ae99d2dfaaa, type: 3}
   m_PrefabInstance: {fileID: 2058606105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &1841046719 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 5167729863211112181, guid: bedeaf52e47abb2488824113bfb5b016, type: 3}
+  m_PrefabInstance: {fileID: 1647490246}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1841709221
 PrefabInstance:
